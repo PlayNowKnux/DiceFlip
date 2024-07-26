@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    outline: black 5px solid;
+    padding: 10px;
+}
+
+td.piece {
+    margin: 10px;
+    outline: black 2px solid;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+td.red {
+    background-color: red;
+    color:white;
+}
+
+td.blue {
+    background-color: blue;
+    color: white;
+}
+
+td.normal {
+    background-color: lightgray;
+}
+
+td.red:hover {
+    background-color: violet;
+}
+
+td.blue:hover {
+    background-color: cadetblue;
+}
+
+td.normal:hover {
+    background-color: skyblue;
+}
+
+.label {
+    user-select: none;
+}
+
+.small {
+    font-size: 18;
+}
+
+.side {
+    vertical-align: middle;
+}
